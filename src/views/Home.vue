@@ -116,7 +116,7 @@ return this.posts[Math.abs(this.currentNumber) % this.posts.length];
     width: 600px;
     height: 600px;
     border-radius: 40px;
-    border: solid 15px #ffdb00;
+    border: solid 15px #ab0050;
 }
 .divpics{
     padding-top: 30px;
@@ -137,7 +137,7 @@ return this.posts[Math.abs(this.currentNumber) % this.posts.length];
     margin-left: 100px;
 }
 .fa{
-    color: #ffdb00;
+    color: #ab0050;
 }
 .fa1{
     margin-top: 300px;
@@ -160,7 +160,7 @@ return this.posts[Math.abs(this.currentNumber) % this.posts.length];
     font-weight: bold;
     font-size: 40px;   
     overflow: hidden;
-    border-right: .15em solid #ffdb00; 
+    border-right: .15em solid #ab0050;
     white-space: nowrap; 
     margin: 0 auto;
     letter-spacing: .15em;
@@ -176,6 +176,6 @@ return this.posts[Math.abs(this.currentNumber) % this.posts.length];
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #ffdb00; }
+  50% { border-color: #ab0050 }
 }
 </style>
