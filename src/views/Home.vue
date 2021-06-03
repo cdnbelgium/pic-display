@@ -158,7 +158,8 @@ return this.posts[Math.abs(this.currentNumber) % this.posts.length];
 }
 .bottomtext {
     font-weight: bold;
-    font-size: 40px;   
+    font-size: 40px; 
+    color: #ab0050;  
     overflow: hidden;
     border-right: .15em solid #ab0050;
     white-space: nowrap; 
