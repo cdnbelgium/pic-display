@@ -44,6 +44,11 @@
                     </div>
                 </div>
             </div>
+            <div class="twriter">
+                <div class="bottomtext">
+                    <p>May these colours help brighten your day.</p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -147,5 +152,30 @@ return this.posts[Math.abs(this.currentNumber) % this.posts.length];
     width: 200px;
     height: auto;
     margin-left: -50px;
+}
+.twriter{
+    margin-top: 70px; 
+}
+.bottomtext {
+    font-weight: bold;
+    font-size: 40px;   
+    overflow: hidden;
+    border-right: .15em solid #ffdb00; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(80, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffdb00; }
 }
 </style>
